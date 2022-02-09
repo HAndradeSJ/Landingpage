@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Rowdies:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+ body{
+    background-image:url(imagens/background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;  
+}
+header{
+    display:flex;
+    font-family:'Satisfy',cursive;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px 1%;
+    background-color:rgba(255,209,83,255) ;
+    box-shadow:0 0 1rem #2e0d05 ;
+}
+li a {
+    text-decoration: none;
+    color:#864a3b;
+}
+li a:hover{
+    color: #ff3f2e;
+}
+.menu{
+    margin-left:-1500px;
+    list-style:none;
+    display:flex;
+    padding:10px;
+    cursor: pointer;
+
+}
+.menu li{
+    font-size:30px;
+    text-decoration:none;
+    padding-left: 150px;
+    transition: all 01s ease 0s;
+}
+
+.logos{
+    max-width:20px;
+    margin-left:30px;
+} 
+
+    /* ---MEIO--- */
+.meio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 215px 0;
+}
+.col1{
+    flex-basis:50%;
+    position:relative;
+    margin-left: 95px;
+}
+.col1 h1{
+    font-size:90px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
+.col1 h2{
+    font-family:'Satisfy',cursive;
+    font-size:30px;
+    font-weight:100;
+    color:white;
+    margin:10px 0 10px;
+}
+.col1 p{
+    font-family:'Satisfy',cursive;
+    color:white;
+    font-size:20px;
+    font-weight:100;
+    margin:15px 0px;
+}
+button{
+    width: 140px;
+    border:0;
+    padding:15px 30px;
+    outline:none;
+    color:white;
+    background:#ff3f2e;
+    border-radius:6px;
+    cursor:pointer;
+    transition: all;
+}
+button:hover{
+    background-color:rgba(255,209,83,255);
+    color:#864a3b;
+}
+/* ------FOOTER----- */
+.clspace{
+    margin-left:-2%;
+
+}
+.redes a{
+    top:150px;
+    color:#ff3f2e;
+    padding-left:65px;
+    font-size:40px;
+    
+}
+.redes a:hover{
+    color:rgba(255,209,83,255);
+}
